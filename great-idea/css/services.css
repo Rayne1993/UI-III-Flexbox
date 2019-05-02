@@ -37,7 +37,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     margin: 10px 50px;
-    padding: 40px 10px;
+    padding: 0 10px 40px 10px;
     border-bottom: 1px solid black;
 }
 
@@ -52,92 +52,130 @@
 }
 
 .middle-content {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
 }
 
 .design {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    width: 400px;
-    margin: 40px 20px 20px 50px;
-    padding: 30px;
+    display: inline-block;
     border: 1px solid black;
     background: lightgray;
+    width: 43%;
+    margin: 20px 0px 20px 50px;
+    padding: 20px;
     text-align: left;
 }
 
 .design button {
-    width: 150px;
-    height: 40px;
-    margin: 20px 20px 0 0;
-    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
 }
 
 .ux {
-display: flex;
-flex-flow: column wrap;
-align-content: flex-start;
-width: 400px;
-margin: 40px 50px 20px 20px;
-padding: 30px;
-border: 1px solid black;
-background: lightgray;
-text-align: left;
+    display: inline-block;
+    border: 1px solid black;
+    background: lightgray;
+    width: 43%;
+    margin: 20px 0 20px 40px;
+    padding: 20px;
+    text-align: left;
+}
+
+.ux button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
 }
 
 .marketing {
-display: flex;
-flex-flow: column wrap;
-align-items: flex-start;
-width: 400px;
-margin: 40px 20px 20px 50px;
-padding: 30px;
-border: 1px solid black;
-background: lightgray;
-text-align: left;
+    display: inline-block;
+    border: 1px solid black;
+    background: lightgray;
+    width: 43%;
+    margin: 20px 0 20px 50px;
+    padding: 20px;
+    text-align: left;
+}
+
+.marketing button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
+
 }
 
 .webdev {
-display: flex;
-flex-flow: column wrap;
-align-items: flex-start;
-width: 400px;
-margin: 40px 50px 20px 20px;
-padding: 30px;
-border: 1px solid black;
-background: lightgray;
-text-align: left;
+    display: inline-block;
+    border: 1px solid black;
+    background: lightgray;
+    width: 43%;
+    margin: 20px 0 20px 40px;
+    padding: 20px;
+    text-align: left;
+}
+
+.webdev button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
+
 }
 
 .ios {
-display: flex;
-flex-flow: column wrap;
-justify-content: flex-start;
-width: 400px;
-margin: 40px 20px 20px 50px;
-padding: 30px;
-border: 1px solid black;
-background: lightgray;
-text-align: left;
+    display: inline-block;
+    border: 1px solid black;
+    background: lightgray;
+    width: 43%;
+    margin: 20px 0 20px 50px;
+    padding: 20px;
+    text-align: left;
+}
+
+.ios button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
 }
 
 .android {
-display: flex;
-flex-flow: column wrap;
-align-items: flex-start;
-width: 400px;
-margin: 40px 50px 20px 20px;
-padding: 30px;
-border: 1px solid black;
-background: lightgray;
-text-align: left;
+    display: inline-block;
+    border: 1px solid black;
+    background: lightgray;
+    width: 43%;
+    margin: 20px 0 20px 40px;
+    padding: 20px;
+    text-align: left;
+}
+
+.android button {
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
 }
 
 .facts {
-display: flex;
-align-items: flex-end;
-border-top: 1px soild black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    margin: 10px 50px;
+    padding: 20px;
+}
+
+.facts-two {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 85px 0 0;
+}
+
+.facts-two ul {
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
+.fact-img {
+    display: flex;
+    width: 60%;
 }
